@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
+title: Publications
 description: Summary of my research so far..
 years: [2021, 2019]
 nav: true
