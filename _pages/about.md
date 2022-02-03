@@ -22,5 +22,5 @@ In 2020, I graduated from the Bachelor of Science (Honours) Engineering degree s
 
 My research interests include
 
-- Robotics navigation and Control
-- Robotics exploration
+- Robotics Navigation and Control
+- Robotics Exploration

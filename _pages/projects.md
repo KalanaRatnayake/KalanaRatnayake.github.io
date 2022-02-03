@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: The projects i have completed and currently working on..
 nav: true
-display_categories: [work, fun]
+display_categories: [Ongoing, Complete]
 horizontal: false
 ---
 
