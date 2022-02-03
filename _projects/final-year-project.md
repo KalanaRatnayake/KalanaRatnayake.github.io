@@ -5,6 +5,7 @@ description: Motion Planner To Explore Unknown Rough Terrain
 img: assets/img/projects/final-year-project/data_flow_diagram.png
 importance: 2
 category: Complete
+github: https://github.com/KalanaRatnayake/UnknownTerrainNavigation
 ---
 
 <div class="row">
@@ -30,6 +31,11 @@ The research project “Motion planner to explore unknown rough terrain” is fo
 </ol>
 
 <a href="{{ '/assets/pdf/Motion_Planner_To_Explore_Unknown_Rough_Terrain.pdf' | relative_url }}">Download PDF</a>
+<div class="icon" data-toggle="tooltip" title="Code Repository">
+    <a href="{{ page.github }}"><i class="fab fa-github gh-icon"></i> Codebase</a>
+</div>
+
+<p></p>
 
 <h2>Goal Identifier</h2>
 
