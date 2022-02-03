@@ -2,24 +2,23 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
+title: blank        # the website title (if blank, full name will be used instead)
 first_name: Kalana
 middle_name: Vidurath
 last_name: Ratnayake
 email: kalanaratnayake95@gmail.com
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: >      # the ">" symbol means to ignore newlines until "footer_text:"
+  
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-  Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
 
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: 🔥 # the emoji used as the favicon
+keywords:  # add your own keywords or leave empty
+
+lang: en            # the language of your site (for example: en, fr, cn, ru, etc.)
+icon:             # the emoji used as the favicon
 url: https://KalanaRatnayake.github.io # the base hostname & protocol for your site
-baseurl:     # the subpath of your site, e.g. /blog/
+baseurl:            # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path:     # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
 # RSS Feed
@@ -27,7 +26,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
-rss_icon: true
+rss_icon: false
 
 # -----------------------------------------------------------------------------
 # Layout
@@ -45,16 +44,16 @@ max_width: 1000px
 # Open Graph & Schema.org
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: false      # Include Open Graph meta tags in the HTML head
+serve_schema_org: false   # Include Schema.org in the HTML head
+og_image:                 # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
 
 github_username: KalanaRatnayake
-gitlab_username: # your GitLab user name
+gitlab_username:  # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: kalana-ratnayake
 scholar_userid: # your Google Scholar ID
@@ -107,6 +106,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  teaching:
+    output: true
+    permalink: /teaching/:path/
 
 news_limit: 5
 
@@ -202,10 +204,10 @@ jekyll-archives:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Ratnayake
+  first_name: [Ratnayake, K.]
 
-  style: apa
+  style: ieee
   locale: en
 
   source: /_bibliography/
@@ -265,13 +267,11 @@ enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification
 enable_masonry:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
-enable_tooltips:            false  # enables automatic tooltip links generated
-                                   # for each section titles on pages and posts
-enable_darkmode:            true   # enables switching between light/dark modes
-enable_navbar_social:       false  # enables displaying social links in the
-                                   # navbar on the about page
-enable_project_categories:  true   # enables categorization of projects into
-                                   # multiple categories
+enable_tooltips:            false  # enables automatic tooltip links generated for each section titles on pages and posts
+enable_darkmode:            false  # enables switching between light/dark modes
+enable_navbar_social:       false  # enables displaying social links in the navbar on the about page
+enable_project_categories:  true   # enables categorization of projects into multiple categories
+enable_teaching_categories: true  # enables categorization of  into multiple categories
 enable_medium_zoom:         true   # enables image zoom feature (as on medium.com)
 
 
