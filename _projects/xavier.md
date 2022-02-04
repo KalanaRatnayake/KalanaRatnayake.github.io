@@ -9,11 +9,11 @@ category: Ongoing
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/xavier/Xavier_1.png" title="high level design of the system" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path=page.img title="high level design of the system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Xavier system design
+    Map Merging example
 </div>
 
 <b>Tech Stack:</b> [Robot Operating System (ROS)](https://www.ros.org/), [Octomap Library](https://octomap.github.io/), [Turtlebot system](https://www.turtlebot.com/)

@@ -5,7 +5,7 @@ permalink: /teaching/
 description: Lab Practicals conducted so far
 nav: true
 horizontal: false
-display_categories: [2021]
+display_categories: [2021, 2020]
 ---
 
 <!-- _pages/teaching.md -->

@@ -207,7 +207,7 @@ scholar:
   last_name: Ratnayake
   first_name: [Ratnayake, K.]
 
-  style: ieee
+  style: /_bibliography/ieee.csl
   locale: en
 
   source: /_bibliography/

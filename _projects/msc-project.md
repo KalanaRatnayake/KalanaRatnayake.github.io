@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Masters Research Project
+title: Masters Research
 description: Navigation Planning For A Multi Robot System Exploring An Unknown Environment Supported By Volumetric Data
 img: assets/img/projects/msc-project/multi_robot_system_robot.jpg
+pdf: assets/pdf/Navigation_Planning_For_A_Multi_Robot_System_Exploring_An_Unknown_Environment_Supported_By_Volumetric_Data.pdf
 importance: 1
 category: Complete
 ---
@@ -20,9 +21,27 @@ category: Complete
 
 <b>Tech Stack:</b> [Robot Operating System (ROS)](https://www.ros.org/), [Octomap Library](https://octomap.github.io/), [Turtlebot system](https://www.turtlebot.com/)
 
-The research project focuses on building a multi robot exploration system to explore unknown environments
+The research project focuses on building a multi robot exploration system to explore unknown environments. The system contains following components,
 
-<a href="{{ '/assets/pdf/Navigation_Planning_For_A_Multi_Robot_System_Exploring_An_Unknown_Environment_Supported_By_Volumetric_Data.pdf' | relative_url }}">Download PDF</a>
+<ol>
+    <li>Client System
+        <ol>
+            <li>Exploration Module</li>
+            <li>Planning Module</li>
+            <li>Control Module</li>
+            <li>Client Module</li>
+        </ol>
+    </li>
+    <li>Server System</li>
+</ol>
+
+<div class="row ml-1 mr-1 p-0">
+    <div class="icon" data-toggle="tooltip" title="Thesis report">
+        <a href="{{ page.pdf | relative_url }}"><i class="fas fa-file-pdf gh-icon"></i> Download PDF</a>
+    </div>
+</div>
+
+<br>
 
 <h2>Client System</h2>
 

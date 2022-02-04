@@ -34,6 +34,20 @@
                 {%- endif -%}
               </div>
               {%- endif -%}
+              {%- if module.youtube -%}
+              <div class="github-icon">
+                <div class="icon" data-toggle="tooltip" title="Youtube Video">
+                  <a href="{{ module.youtube }}"><i class="fab fa-youtube gh-icon"></i>&ensp;</a>
+                </div>
+              </div>
+              {%- endif %}
+              {%- if module.pdf -%}
+              <div class="github-icon">
+                <div class="icon" data-toggle="tooltip" title="Thesis report">
+                  <a href="{{ module.pdf | relative_url }}"><i class="fas fa-file-pdf gh-icon"></i>&ensp;</a>
+                </div>
+              </div>
+              {%- endif %}
             </div>
           </div>
         </div>

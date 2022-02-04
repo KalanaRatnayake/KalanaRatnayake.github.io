@@ -1,16 +1,17 @@
 ---
 layout: page
-title: Undergraduate Research Project
+title: Undergraduate Research
 description: Motion Planner To Explore Unknown Rough Terrain
 img: assets/img/projects/final-year-project/data_flow_diagram.png
 importance: 2
 category: Complete
 github: https://github.com/KalanaRatnayake/UnknownTerrainNavigation
+pdf: assets/pdf/Motion_Planner_To_Explore_Unknown_Rough_Terrain.pdf
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/projects/final-year-project/data_flow_diagram.png" title="high level design of the system" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path=page.img title="high level design of the system" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -30,12 +31,17 @@ The research project “Motion planner to explore unknown rough terrain” is fo
   <li>Ground Evaluator</li>
 </ol>
 
-<a href="{{ '/assets/pdf/Motion_Planner_To_Explore_Unknown_Rough_Terrain.pdf' | relative_url }}">Download PDF</a>
-<div class="icon" data-toggle="tooltip" title="Code Repository">
-    <a href="{{ page.github }}"><i class="fab fa-github gh-icon"></i> Codebase</a>
+<div class="row ml-1 mr-1 p-0">
+    <div class="icon" data-toggle="tooltip" title="Thesis report">
+        <a href="{{ page.pdf | relative_url }}"><i class="fas fa-file-pdf gh-icon"></i> Download PDF</a>
+    </div>
+    &ensp;
+    <div class="icon" data-toggle="tooltip" title="Code Repository">
+        <a href="{{ page.github }}"><i class="fab fa-github gh-icon"></i> Codebase</a>
+    </div>
 </div>
 
-<p></p>
+<br>
 
 <h2>Goal Identifier</h2>
 
