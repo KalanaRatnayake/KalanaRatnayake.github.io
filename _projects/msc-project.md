@@ -45,7 +45,7 @@ The research project focuses on building a multi robot exploration system to exp
 
 <h2>Client System</h2>
 
-This is the system that runs on a robot. This system collects data from the environment and shares them with the server while navigating and exploring at the same time
+This is the system that runs on the robot. This system collects data from the environment and shares them with the server system while navigating and exploring at the same time.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -58,7 +58,7 @@ This is the system that runs on a robot. This system collects data from the envi
 
 <h3>Exploration Module</h3>
 
-The Exploration module analyses a predefined area of the voxel map of the environment by clustering it into groups. This area dimensions can change based on the exploration goals calculated and assigned by the server. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as a unexplored cluster. Once all the clusters are identified, closes cluster to the robot position is selected as the exploration target. Following image contains the design of this module.
+The Exploration module analyses a predefined area of the voxel map of the environment by clustering it into groups. This area dimensions can change based on the exploration goals calculated and assigned by the server. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as an unexplored cluster. Once all the clusters are identified, closest cluster to the robot position is selected as the exploration target. Following image contains the design of this module.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -113,7 +113,7 @@ This module communicates with the server. Once it receives a goal from the serve
 
 <h2>Server System</h2>
 
-The Server system receives data from all the robots through client modules on each robot. The server merges the maps from all the robots and analyses the derived voxel map of the environment by clustering it into groups. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as a unexplored cluster. Once all the clusters are identified, clusters are assigned to robots based on the distance between each other. From clusters assigned to a robot, the closes cluster to the robot is selected as the exploration target for that robot and gets transmitted to the robot via control module. Following image shows the design of this system.
+The Server system receives data from all the robots through client modules on each robot. The server merges the maps from all the robots and analyses the derived voxel map of the environment by clustering it into groups. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as an unexplored cluster. Once all the clusters are identified, clusters are assigned to robots based on the distance between each other. From clusters assigned to a robot, the closes cluster to the robot is selected as the exploration target for that robot and gets transmitted to the robot via control module. Following image shows the design of this system.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

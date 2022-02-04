@@ -45,7 +45,7 @@ The research project “Motion planner to explore unknown rough terrain” is fo
 
 <h2>Goal Identifier</h2>
 
-The Goal Identifier subsystem analyses the voxel map of the environment by clustering it into groups. Each group is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as a unexplored cluster. Once all the clusters are identified, closes cluster to the robot position is selected as the exploration target. Following image contains the design of this subsystem.
+The Goal Identifier subsystem analyses the voxel map of the environment by clustering it into groups. Each group is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as an unexplored cluster. Once all the clusters are identified, closes cluster to the robot position is selected as the exploration target. Following image contains the design of this subsystem.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
