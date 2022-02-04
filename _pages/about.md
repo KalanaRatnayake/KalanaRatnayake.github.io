@@ -14,13 +14,31 @@ selected_papers: false     # includes a list of papers marked as "selected={true
 social: true              # includes social icons at the bottom of the page
 ---
 
-I am a Software Engineer at Intellisense Lab of Department of Computer Science and Engineering of University of Moratuwa, Sri Lanka working on developing an automated Fabric Quality Inspection system.
+I am a Software Engineer at Intellisense Lab of University of Moratuwa working on developing an automated Fabric Quality Inspection system.
 
-Previously, I was a Masters' student in the Department of Computer Science and Engineering at University of Moratuwa, co-supervised by Dr. Chandana Gamage and Dr. Sulochana Sooriyaarachchi. My Master's research focused on developing a navigation system that uses volumetric data for multi robot exploration in an unknown environment. I'm passionate about learning and developing robotics systems and so far my research focused on navigation systems. During this time I worked as a Research Assistant in the Fabric Quality Inspection system project and also as a Visiting Instructor for CS4352-Robotics and Automation module at the Department of Computer Science and Engineering of University of Moratuwa.
+I completed my Masters at University of Moratuwa in 2021. It focused on developing a navigation system that uses volumetric data for multi robot exploration in an unknown environment and was co-supervised by Dr. Chandana Gamage and Dr. Sulochana Sooriyaarachchi. During this time I also worked as a Research Assistant and as a Visiting Instructor for CS4352-Robotics and Automation module.
 
-In 2020, I graduated from the Bachelor of Science (Honours) Engineering degree specializing in Computer Science and Engineering with a Second Class Upper Division. My Final Year Research Project focused on developing a motion planner for a wheeled robot to explore an unknown terrain.
+I earned my BSc (Hons) Engineering degree specializing in Computer Science and Engineering in 2020. My research focused on developing a motion planner to explore an unknown terrain.
 
-My research interests include
+<p style="margin:30px;"></p>
+
+<div class="row ml-0 mr-1 p-0">
+    <div>
+      <h5>Download : </h5>
+    </div>
+    &ensp;
+    <div class="icon" data-toggle="tooltip" title="Curriculum Vitae">
+        <a href="{{ 'assets/pdf/CV_Kalana_Ratnayake.pdf' | relative_url }}"><i class="fas fa-file-pdf gh-icon"></i> CV </a>
+    </div>
+    &ensp;
+    <div class="icon" data-toggle="tooltip" title="Resume">
+        <a href="{{ 'assets/pdf/Resume_Kalana_Ratnayake.pdf' | relative_url }}"><i class="fas fa-file-pdf gh-icon"></i> Resume</a>
+    </div>
+</div>
+
+<p style="margin:30px;"></p>
+
+<h5>My research interests include</h5>
 
 - Robotics Navigation and Control
 - Robotics Exploration
