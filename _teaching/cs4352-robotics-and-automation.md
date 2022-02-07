@@ -16,7 +16,7 @@ github: https://github.com/IntellisenseLab/CS4352-Practicals
 
 <h2>Introduction</h2>
 
-Conducted practicals for the module CS4352 - Robotics and Automation as the assigned Visiting Instructor. This module is offered during the 8th semester of Computer Science and Engineering Degree offered by the Department of Computer Science and Engineering of University of Moratuwa.
+Conducted practicals for the module CS4352 - Robotics and Automation as the assigned Visiting Instructor. This module is offered during the 8th semester of Computer Science and Engineering Degree offered by the Department of Computer Science and Engineering of the University of Moratuwa.
 
 <h2>Resources</h2>
 
