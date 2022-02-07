@@ -17,7 +17,7 @@ youtube: https://www.youtube.com/watch?v=GO0jsZix18k&list=PLfOXX2viEAvHrDi8QMmOr
 
 <h2>Introduction</h2>
 
-This is an online workshop series that was conducted on behalf of the ACM Student Chapter of University of Moratuwa. Focus is on introducing ROS basic concepts to students and giving them a hands on experience on using ROS through github based examples.
+This is an online workshop series that was conducted on behalf of the ACM Student Chapter of the University of Moratuwa. The focus is on introducing ROS basic concepts to students and giving them hands-on experience on using ROS through GitHub-based examples.
 
 <h2>Resources</h2>
 
