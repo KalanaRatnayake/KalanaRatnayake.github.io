@@ -21,7 +21,7 @@ category: Complete
 
 <b>Tech Stack:</b> [Robot Operating System (ROS)](https://www.ros.org/), [Octomap Library](https://octomap.github.io/), [Turtlebot system](https://www.turtlebot.com/)
 
-The research project focuses on building a multi robot exploration system to explore unknown environments. The system contains following components,
+The research project focuses on building a multi-robot exploration system to explore unknown environments. The system contains the following components,
 
 <ol>
     <li>Client System
@@ -58,7 +58,7 @@ This is the system that runs on the robot. This system collects data from the en
 
 <h3>Exploration Module</h3>
 
-The Exploration module analyses a predefined area of the voxel map of the environment by clustering it into groups. This area dimensions can change based on the exploration goals calculated and assigned by the server. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as an unexplored cluster. Once all the clusters are identified, closest cluster to the robot position is selected as the exploration target. Following image contains the design of this module.
+The Exploration module analyses a predefined area of the voxel map of the environment by clustering it into groups. This area's dimensions can change based on the exploration goals calculated and assigned by the server. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre-defined threshold, it is considered an unexplored cluster. Once all the clusters are identified, the closest cluster to the robot position is selected as the exploration target. The following image contains the design of this module.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -71,7 +71,7 @@ The Exploration module analyses a predefined area of the voxel map of the enviro
 
 <h3>Planning Module</h3>
 
-Planning module functions as the control unit of the system in addition to performing path planning. It requests the exploration goal from the exploration module and also receives the goal calculated by the server through client module. After selecting on goal, it calculates a 2D map of the environment by down projecting the 3D voxel map of the environment. Then it uses the robot's position, selected goal and calculated 2D map to calculate a path. Then it issues control instructions to Control Module to move the robot. Following image explains the design of this module.
+The planning module functions as the control unit of the system in addition to performing path planning. It requests the exploration goal from the exploration module and also receives the goal calculated by the server through the client module. After selecting on goal, it calculates a 2D map of the environment by down projecting the 3D voxel map of the environment. Then it uses the robot's position, selected goal, and calculated 2D map to calculate a path. Then it issues control instructions to Control Module to move the robot. The following image explains the design of this module.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -84,7 +84,7 @@ Planning module functions as the control unit of the system in addition to perfo
 
 <h3>Control Module</h3>
 
-This module controls the robot as requested by the Planning Module. Supports 3 basic movements, Forward, Backward and Rotation. In addition to that, also receives SLAM tf data and odometry data from respective ROS nodes to continuously track the position. Following image shows the design of this module.
+This module controls the robot as requested by the Planning Module. Supports 3 basic movements, Forward, Backward, and Rotation. In addition to that, also receives SLAM tf data and odometry data from respective ROS nodes to continuously track the position. The following image shows the design of this module.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -101,10 +101,10 @@ This module communicates with the server. Once it receives a goal from the serve
 
 <div class="row">
     <div class="col-sm-4 mt-2 mt-md-0">
-        {% include figure.html path="assets/img/projects/msc-project/client_receive.jpg" title="client module receive" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/msc-project/client_receive.jpg" title="Client module receive" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-8 mt-2 mt-md-0">
-        {% include figure.html path="assets/img/projects/msc-project/client_send.jpg" title="client module send" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/projects/msc-project/client_send.jpg" title="Client module send" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -113,7 +113,7 @@ This module communicates with the server. Once it receives a goal from the serve
 
 <h2>Server System</h2>
 
-The Server system receives data from all the robots through client modules on each robot. The server merges the maps from all the robots and analyses the derived voxel map of the environment by clustering it into groups. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre defined threshold, it is considered as an unexplored cluster. Once all the clusters are identified, clusters are assigned to robots based on the distance between each other. From clusters assigned to a robot, the closes cluster to the robot is selected as the exploration target for that robot and gets transmitted to the robot via control module. Following image shows the design of this system.
+The Server system receives data from all the robots through client modules on each robot. The server merges the maps from all the robots and analyses the derived voxel map of the environment by clustering it into groups. Each cluster is evaluated to identify the occupied voxel percentage. If it is above a pre-defined threshold, it is considered an unexplored cluster. Once all the clusters are identified, clusters are assigned to robots based on the distance between each other. From clusters assigned to a robot, the closes cluster to the robot is selected as the exploration target for that robot and gets transmitted to the robot via the control module. The following image shows the design of this system.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
