@@ -14,11 +14,11 @@ selected_papers: false     # includes a list of papers marked as "selected={true
 social: true              # includes social icons at the bottom of the page
 ---
 
-I am a Software Engineer at Intellisense Lab of University of Moratuwa working on developing an automated Fabric Quality Inspection system.
+I am a Software Engineer at Intellisense Lab of the University of Moratuwa working on developing an automated Fabric Quality Inspection system.
 
-I completed my Masters at University of Moratuwa in 2021. It focused on developing a navigation system that uses volumetric data for multi robot exploration in an unknown environment and was co-supervised by Dr. Chandana Gamage and Dr. Sulochana Sooriyaarachchi. During this time I also worked as a Research Assistant and as a Visiting Instructor for CS4352-Robotics and Automation module.
+I completed my Master's at the University of Moratuwa in 2021. It focused on developing a navigation system that uses volumetric data for multi-robot exploration in an unknown environment and was co-supervised by Dr. Chandana Gamage and Dr. Sulochana Sooriyaarachchi. During this time I also worked as a Research Assistant and as a Visiting Instructor for the CS4352-Robotics and Automation module.
 
-I earned my BSc (Hons) Engineering degree specializing in Computer Science and Engineering in 2020. My research focused on developing a motion planner to explore an unknown terrain.
+I earned my BSc (Hons) Engineering degree specializing in Computer Science and Engineering in 2020. My research focused on developing a motion planner to explore unknown terrain.
 
 <p style="margin:30px;"></p>
 
