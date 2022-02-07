@@ -18,4 +18,4 @@ category: Ongoing
 
 <b>Tech Stack:</b> [Darknet](https://github.com/AlexeyAB/darknet), [QT](https://www.qt.io/), [SpinnakerSDK](https://www.flir.eu/products/spinnaker-sdk/)
 
-This project is to develop an automated fabric quality inspection machine using computer vision and machine learning. A prototype is being implemented using an array of industrial inspection cameras that are interfaced for parallel acquisition of images, image processing software on parallel processors, image classification using a state-of-the-art classifier and web based control, monitoring and reporting. [More details](https://uom.lk/cse/labs/IntelliSense/projects)  
+This project is to develop an automated fabric quality inspection machine using computer vision and machine learning. A prototype is being implemented using an array of industrial inspection cameras that are interfaced for parallel acquisition of images, image processing software on parallel processors, image classification using a state-of-the-art classifier, and web-based control, monitoring, and reporting. [More details](https://uom.lk/cse/labs/IntelliSense/projects)  
