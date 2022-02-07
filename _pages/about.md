@@ -14,7 +14,9 @@ selected_papers: false     # includes a list of papers marked as "selected={true
 social: true              # includes social icons at the bottom of the page
 ---
 
-I am a Software Engineer at Intellisense Lab of the University of Moratuwa working on developing an automated Fabric Quality Inspection system.
+<p style="margin:30px;"></p>
+
+I am a Software Engineer at [Intellisense Lab](https://uom.lk/cse/labs/IntelliSense) of the University of Moratuwa working on developing an automated Fabric Quality Inspection system.
 
 I completed my Master's at the University of Moratuwa in 2021. It focused on developing a navigation system that uses volumetric data for multi-robot exploration in an unknown environment and was co-supervised by Dr. Chandana Gamage and Dr. Sulochana Sooriyaarachchi. During this time I also worked as a Research Assistant and as a Visiting Instructor for the CS4352-Robotics and Automation module.
 
