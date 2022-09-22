@@ -4,7 +4,7 @@ title: FabVis
 description: Machine Vision based Fabric Quality Inspection System 
 img: assets/img/projects/fabvis/FabVis2_0.png
 importance: 1
-category: Ongoing
+category: Complete
 ---
 
 <div class="row">

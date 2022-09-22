@@ -5,7 +5,7 @@ description: Motion Planner To Explore Unknown Rough Terrain
 img: assets/img/projects/final-year-project/data_flow_diagram.png
 importance: 2
 category: Complete
-github: https://github.com/KalanaRatnayake/UnknownTerrainNavigation
+github: https://github.com/KalanaRatnayake/oens
 pdf: assets/pdf/Motion_Planner_To_Explore_Unknown_Rough_Terrain.pdf
 ---
 

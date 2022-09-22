@@ -16,6 +16,6 @@ category: Ongoing
     Map Merging example
 </div>
 
-<b>Tech Stack:</b> [Robot Operating System (ROS)](https://www.ros.org/), [Octomap Library](https://octomap.github.io/), [Turtlebot system](https://www.turtlebot.com/)
+<b>Tech Stack:</b> [Robot Operating System (ROS)](https://www.ros.org/), [Octomap Library](https://octomap.github.io/)
 
-This project is to develop a multi-robot system that collaboratively maps an arena in 3D. The individual robots autonomously navigate through the map to an optimal frontier for efficient area exploration. The system is designed to work without an initial map to suit application scenarios such as disaster rescue. [More details](https://uom.lk/cse/labs/IntelliSense/projects)
+This project focuses on building a UGV suitable for spaces such as construction sites, storage yards, production floor warehouses, post-disaster environments etc. This is done as a contribution for a new startup focusing on developing robotic systems for above mentioned environments with applications in asset management and area inspection. [More details](https://uom.lk/cse/labs/IntelliSense/projects)
